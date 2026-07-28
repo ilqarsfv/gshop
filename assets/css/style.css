@@ -512,17 +512,19 @@ header {
   max-width: 300px;
 }
 
-.advantage_card h2 {
+.advantage_card .main_title_advantages {
   max-width: 340px;
+  color: #000;
   font-size: clamp(24px, 2.2vw, 32px);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.1;
 }
 
-.advantage_card h3 {
+.advantage_card .adv_second_title {
   margin-top: 16px;
+  color: #000;
   font-size: 17px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
 }
 
