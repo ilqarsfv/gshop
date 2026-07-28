@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gshop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.6/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css?v=7" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="border-b border-[#0001] py-1">
+      <div class="container">
+        <div class="header_top flex justify-between items-center">
+          <div class="flex items-center gap-1 text-[#484F55] text-[13px] font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" x="0" y="0" viewBox="0 0 512 512" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+              <g><path d="M263.441 31.978C197.32-5.804 127.828-9.338 61 20.826V0H31v512h30V325.267c61.569-32.294 126.226-31.289 187.559 3.755 36.782 21.021 74.604 31.523 112.441 31.523 37.822 0 75.659-10.503 112.441-31.523l7.559-4.321V19.146l-22.441 12.832c-63.809 36.474-131.28 36.474-195.118 0" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+            </svg>
+            Azərbaycan
+          </div>
+          <ul class="flex items-center gap-4 text-[13px] text-[#484F55] font-medium">
+            <li class="relative group">
+              <a href="" class="flex items-center gap-1">
+                Haqqımızda
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" x="0" y="0" viewBox="0 0 128 128" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                  <g><path d="M64 88a4 4 0 0 1-2.828-1.172l-40-40c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0L64 78.344l37.172-37.172c1.563-1.563 4.094-1.563 5.656 0s1.563 4.094 0 5.656l-40 40A4 4 0 0 1 64 88" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+                </svg>
+              </a>
+              <ul class="absolute group-hover:block hidden top-[100%] lef-0 bg-white w-max p-2 sub_menu_wrapper rounded-[12px]">
+                <li><a class="text-[14px] w-full py-2 inline-block px-3 hover:bg-[#DFE2E8] rounded-[6px] transition-all duration-300 ease-in-out" href="">lorem ipsum</a></li>
+                <li><a class="text-[14px] w-full py-2 inline-block px-3 hover:bg-[#DFE2E8] rounded-[6px] transition-all duration-300 ease-in-out" href="">lorem</a></li>
+                <li><a class="text-[14px] w-full py-2 inline-block px-3 hover:bg-[#DFE2E8] rounded-[6px] transition-all duration-300 ease-in-out" href="">lorem</a></li>
+                <li><a class="text-[14px] w-full py-2 inline-block px-3 hover:bg-[#DFE2E8] rounded-[6px] transition-all duration-300 ease-in-out" href="">lorem</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="flex items-center gap-1"> Haqqımızda </a>
+            </li>
+            <li>
+              <a href="" class="flex items-center gap-1"> Haqqımızda </a>
+            </li>
+            <li>
+              <a href="" class="flex items-center gap-1"> Haqqımızda </a>
+            </li>
+          </ul>
+          <a href="/" class="flex items-center gap-1 text-[#484F55] text-[14px] font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 32 32" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+              <g>
+                <path d="M16 29a13 13 0 1 1 13-13 13.015 13.015 0 0 1-13 13m0-24a11 11 0 1 0 11 11A11.013 11.013 0 0 0 16 5" fill="#484f55" opacity="1" data-original="#000000" class=""></path>
+                <path d="M16 20a1 1 0 0 1-1-1 4.63 4.63 0 0 1 1.793-3.207C17.414 15.172 18 14.586 18 14a2 2 0 0 0-4 0 1 1 0 0 1-2 0 4 4 0 0 1 8 0 4.63 4.63 0 0 1-1.793 3.207C17.586 17.828 17 18.414 17 19a1 1 0 0 1-1 1" fill="#484f55" opacity="1" data-original="#000000" class=""></path>
+                <circle cx="16" cy="22" r="1" fill="#484f55" opacity="1" data-original="#000000" class=""></circle>
+              </g>
+            </svg>
+            +994 55 555 55 55
+          </a>
+        </div>
+        <nav class="flex items-center justify-between mt-2">
+          <div class="flex items-center gap-10 w-[60%]">
+            <a href="/" class="w-[113px] h-[57px] inline-block">
+              <img class="w-full h-full object-contain" src="/assets/photos/logo.gif" alt="logo photo" />
+            </a>
+            <div class="flex items-center gap-2">
+              <button id="catalog_button" type="button" aria-expanded="false" aria-controls="catalog_panel" class="bg-[#484F55] text-[14px] font-medium cursor-pointer border-[2px] border-[#484F55] flex items-center gap-2 text-white py-[7px] px-[12px] rounded-[12px]">
+                <svg class="catalog-menu-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 64 64" style="enable-background: new 0 0 512 512" xml:space="preserve">
+                  <g><path d="M53 21H11c-1.7 0-3-1.3-3-3s1.3-3 3-3h42c1.7 0 3 1.3 3 3s-1.3 3-3 3M53 35H11c-1.7 0-3-1.3-3-3s1.3-3 3-3h42c1.7 0 3 1.3 3 3s-1.3 3-3 3M53 49H11c-1.7 0-3-1.3-3-3s1.3-3 3-3h42c1.7 0 3 1.3 3 3s-1.3 3-3 3" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g>
+                </svg>
+                <svg class="catalog-close-icon" viewBox="0 0 24 24" width="25" height="25" aria-hidden="true">
+                  <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+                </svg>
+                Kataloq
+              </button>
+              <div class="bg-[#484F55] border-[2px] w-[510px] border-[#484f55] rounded-[12px] flex items-center gap-3 duration-300 ease-in-out transition-all hover:bg-[black]">
+                <input type="text" placeholder="Axtar" id="search" class="bg-white rounded-[11px] px-[16px] py-[10px] text-[14px] w-full" />
+                <label for="search" class="pr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" x="0" y="0" viewBox="0 0 32 32" style="enable-background: new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class="">
+                    <g><path d="m20.616 22.031 3.677 3.676a1 1 0 0 0 1.414-1.414l-3.676-3.677A8.96 8.96 0 0 0 24 15c0-4.967-4.033-9-9-9s-9 4.033-9 9 4.033 9 9 9a8.96 8.96 0 0 0 5.616-1.969M15 8c3.863 0 7 3.137 7 7s-3.137 7-7 7-7-3.137-7-7 3.137-7 7-7" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g>
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="w-[40%] flex items-center justify-between">
+            <ul class="flex items-center gap-6">
+              <li>
+                <a href="" class="flex flex-col gap-1 text-[#484F55] text-[14px] items-center font-medium">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 471.701 471.701" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g><path d="M433.601 67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7 13.6-92.4 38.3l-12.9 12.9-13.1-13.1c-24.7-24.7-57.6-38.4-92.5-38.4-34.8 0-67.6 13.6-92.2 38.2-24.7 24.7-38.3 57.5-38.2 92.4 0 34.9 13.7 67.6 38.4 92.3l187.8 187.8c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-3.9l188.2-187.5c24.7-24.7 38.3-57.5 38.3-92.4.1-34.9-13.4-67.7-38.1-92.4m-19.2 165.7-178.7 178-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3s10.7-53.7 30.3-73.2c19.5-19.5 45.5-30.3 73.1-30.3 27.7 0 53.8 10.8 73.4 30.4l22.6 22.6c5.3 5.3 13.8 5.3 19.1 0l22.4-22.4c19.6-19.6 45.7-30.4 73.3-30.4s53.6 10.8 73.2 30.3c19.6 19.6 30.3 45.6 30.3 73.3.1 27.7-10.7 53.7-30.3 73.3" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+                  </svg>
+                  <span>Lorem</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex flex-col gap-1 text-[#484F55] text-[14px] items-center font-medium">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 471.701 471.701" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g><path d="M433.601 67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7 13.6-92.4 38.3l-12.9 12.9-13.1-13.1c-24.7-24.7-57.6-38.4-92.5-38.4-34.8 0-67.6 13.6-92.2 38.2-24.7 24.7-38.3 57.5-38.2 92.4 0 34.9 13.7 67.6 38.4 92.3l187.8 187.8c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-3.9l188.2-187.5c24.7-24.7 38.3-57.5 38.3-92.4.1-34.9-13.4-67.7-38.1-92.4m-19.2 165.7-178.7 178-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3s10.7-53.7 30.3-73.2c19.5-19.5 45.5-30.3 73.1-30.3 27.7 0 53.8 10.8 73.4 30.4l22.6 22.6c5.3 5.3 13.8 5.3 19.1 0l22.4-22.4c19.6-19.6 45.7-30.4 73.3-30.4s53.6 10.8 73.2 30.3c19.6 19.6 30.3 45.6 30.3 73.3.1 27.7-10.7 53.7-30.3 73.3" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+                  </svg>
+                  <span>Lorem</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex flex-col gap-1 text-[#484F55] text-[14px] items-center font-medium">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 471.701 471.701" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g><path d="M433.601 67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7 13.6-92.4 38.3l-12.9 12.9-13.1-13.1c-24.7-24.7-57.6-38.4-92.5-38.4-34.8 0-67.6 13.6-92.2 38.2-24.7 24.7-38.3 57.5-38.2 92.4 0 34.9 13.7 67.6 38.4 92.3l187.8 187.8c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-3.9l188.2-187.5c24.7-24.7 38.3-57.5 38.3-92.4.1-34.9-13.4-67.7-38.1-92.4m-19.2 165.7-178.7 178-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3s10.7-53.7 30.3-73.2c19.5-19.5 45.5-30.3 73.1-30.3 27.7 0 53.8 10.8 73.4 30.4l22.6 22.6c5.3 5.3 13.8 5.3 19.1 0l22.4-22.4c19.6-19.6 45.7-30.4 73.3-30.4s53.6 10.8 73.2 30.3c19.6 19.6 30.3 45.6 30.3 73.3.1 27.7-10.7 53.7-30.3 73.3" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+                  </svg>
+                  <span>Lorem</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex flex-col gap-1 text-[#484F55] text-[14px] items-center font-medium">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 471.701 471.701" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                    <g><path d="M433.601 67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7 13.6-92.4 38.3l-12.9 12.9-13.1-13.1c-24.7-24.7-57.6-38.4-92.5-38.4-34.8 0-67.6 13.6-92.2 38.2-24.7 24.7-38.3 57.5-38.2 92.4 0 34.9 13.7 67.6 38.4 92.3l187.8 187.8c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-3.9l188.2-187.5c24.7-24.7 38.3-57.5 38.3-92.4.1-34.9-13.4-67.7-38.1-92.4m-19.2 165.7-178.7 178-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3s10.7-53.7 30.3-73.2c19.5-19.5 45.5-30.3 73.1-30.3 27.7 0 53.8 10.8 73.4 30.4l22.6 22.6c5.3 5.3 13.8 5.3 19.1 0l22.4-22.4c19.6-19.6 45.7-30.4 73.3-30.4s53.6 10.8 73.2 30.3c19.6 19.6 30.3 45.6 30.3 73.3.1 27.7-10.7 53.7-30.3 73.3" fill="#484f55" opacity="1" data-original="#000000" class=""></path></g>
+                  </svg>
+                  <span>Lorem</span>
+                </a>
+              </li>
+            </ul>
+            <button class="bg-[#EEEFF1] rounded-[12px] px-[16px] py-[12px] font-medium text-[14px]">Daxil ol</button>
+          </div>
+        </nav>
+        <section id="catalog_panel" class="catalog-panel" aria-label="Məhsul kataloqu" aria-hidden="true">
+          <div class="catalog-sidebar">
+            <ul class="catalog-categories" aria-label="Əsas kateqoriyalar">
+              <li>
+                <a class="is-active" href="#" data-catalog-target="catalog_tools" aria-controls="catalog_tools" aria-current="true"><span class="category-icon">⚒</span><span>Alətlər</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#" data-catalog-target="catalog_electric" aria-controls="catalog_electric"><span class="category-icon">ϟ</span><span>Elektrik və işıq</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">◆</span><span>Əl alətləri</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">⚑</span><span>Santexnika və mühəndis sistemləri</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">♣</span><span>Bağ üçün hər şey</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▰</span><span>Güc texnikası</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">✂</span><span>Avtomobil məhsulları</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▧</span><span>Bərkidicilər və furnitura</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▥</span><span>Tikinti və bəzək materialları</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▤</span><span>Ofis və ev</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">⚙</span><span>Anbar</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▣</span><span>Dəzgah və sənaye avadanlığı</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">❄</span><span>İqlim, istilik və ventilyasiya</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">♜</span><span>Xüsusi geyim və FMV</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">♙</span><span>Təmizlik və kimya</span><span class="category-arrow">›</span></a>
+              </li>
+              <li>
+                <a href="#"><span class="category-icon">▱</span><span>Tikinti avadanlığı</span><span class="category-arrow">›</span></a>
+              </li>
+            </ul>
+          </div>
+          <div id="catalog_tools" class="catalog-content is-active" data-catalog-content>
+            <h2>Alətlər</h2>
+            <div class="catalog-subcategories">
+              <div class="subcategory-column">
+                <a href="#"><span class="expand-mark">+</span>Akkumulyatorlu alətlər <small>(16135)</small></a>
+                <a href="#">Bucaqlı cilalayıcılar <small>(4324)</small></a>
+                <a href="#">Şırım açanlar <small>(190)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Qayka buranlar <small>(3292)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Steplerlər <small>(1590)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Generatorlar <small>(5947)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Oyma maşınları <small>(1193)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Drellər <small>(7683)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Pərçimləyicilər <small>(1137)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Ölçü alətləri <small>(31502)</small></a>
+                <a href="#"><span class="expand-mark">+</span>İş növünə görə alətlər <small>(121597)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Alət dəstləri <small>(9284)</small></a>
+              </div>
+              <div class="subcategory-column">
+                <a href="#">Elektrik kəlbətinləri <small>(44)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Kompressorlar <small>(6644)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Boya püskürdücülər <small>(473)</small></a>
+                <a href="#">Lobziklər <small>(1133)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Metal qayçıları <small>(1520)</small></a>
+                <a href="#">Qırıcı çəkiclər <small>(728)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Lehimləmə avadanlığı <small>(1404)</small></a>
+                <a href="#">Perforatorlar <small>(2468)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Mişarlar <small>(5958)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Tapançalar <small>(2291)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Pnevmatik alətlər <small>(9154)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Hava hazırlama sistemi <small>(1006)</small></a>
+              </div>
+              <div class="subcategory-column">
+                <a href="#">Pnevmatik qayka buranlar <small>(131)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Sərf materialları <small>(487279)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Çoxfunksiyalı renovatorlar <small>(438)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Qaynaq avadanlığı <small>(11443)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Güc texnikası <small>(309560)</small></a>
+                <a href="#">Tikinti tozsoranları <small>(1200)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Fenlər <small>(795)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Frezerlər <small>(588)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Cilalama maşınları <small>(8014)</small></a>
+                <a href="#">Vintburanlar <small>(6098)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Elektrik otvyortkaları <small>(450)</small></a>
+                <a href="#">Elektrik rəndələri <small>(510)</small></a>
+              </div>
+            </div>
+          </div>
+          <div id="catalog_electric" class="catalog-content" data-catalog-content>
+            <h2>Elektrik və işıq</h2>
+            <div class="catalog-subcategories">
+              <div class="subcategory-column">
+                <a href="#"><span class="expand-mark">+</span>Elektrik avadanlıqları <small>(12480)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Kabellər və naqillər <small>(8632)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Rozetkalar və açarlar <small>(4275)</small></a>
+                <a href="#">Uzatma kabelləri <small>(1358)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Elektrik şitləri <small>(986)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Avtomatik açarlar <small>(3241)</small></a>
+                <a href="#">Gərginlik stabilizatorları <small>(746)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Elektrik sayğacları <small>(325)</small></a>
+                <a href="#">Transformatorlar <small>(418)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Kabel aksesuarları <small>(5690)</small></a>
+                <a href="#">İzolyasiya materialları <small>(2147)</small></a>
+              </div>
+              <div class="subcategory-column">
+                <a href="#"><span class="expand-mark">+</span>Daxili işıqlandırma <small>(9845)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Çöl işıqlandırması <small>(3672)</small></a>
+                <a href="#">LED lampalar <small>(7436)</small></a>
+                <a href="#">Dekorativ lampalar <small>(1924)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Çilçıraqlar <small>(5310)</small></a>
+                <a href="#">Masa lampaları <small>(1168)</small></a>
+                <a href="#">Projektorlar <small>(893)</small></a>
+                <a href="#"><span class="expand-mark">+</span>LED lentlər və profillər <small>(2654)</small></a>
+                <a href="#">Fənərlər <small>(1782)</small></a>
+                <a href="#">Gecə lampaları <small>(624)</small></a>
+                <a href="#">Fövqəladə işıqlandırma <small>(287)</small></a>
+              </div>
+              <div class="subcategory-column">
+                <a href="#"><span class="expand-mark">+</span>Ağıllı ev sistemləri <small>(1325)</small></a>
+                <a href="#">Hərəkət sensorları <small>(578)</small></a>
+                <a href="#">Zəng və domofonlar <small>(834)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Video müşahidə <small>(1986)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Siqnalizasiya sistemləri <small>(947)</small></a>
+                <a href="#">Batareyalar və akkumulyatorlar <small>(3820)</small></a>
+                <a href="#">Enerji mənbələri <small>(1064)</small></a>
+                <a href="#"><span class="expand-mark">+</span>Günəş panelləri <small>(438)</small></a>
+                <a href="#">Elektrik montaj alətləri <small>(2416)</small></a>
+                <a href="#">Lehimləmə materialları <small>(769)</small></a>
+                <a href="#">Elektrik təhlükəsizliyi <small>(536)</small></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="header_bottom py-3">
+          <ul class="flex items-center gap-6 text-[14px]">
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">brendlər</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">aksesuarlar</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">brendlər</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">aksesuarlar</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">brendlər</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">brendlər</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">aksesuarlar</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">brendlər</a></li>
+            <li><a href="" class="capitalize font-medium text-[#484F55] hover:text-[#427BF1] transition-all duration-300 ease-in-out">aksesuarlar</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- banner -->
+      <section>
+        <div class="container">
+          <div class="megasliderpro col-xs-12 col-sm-12 col-md-9">
+            <div id="mslider0" class="swiper swiper-slideshow">
+              <button class="swiper-ms-arrow ms-prev" type="button" aria-label="Əvvəlki slayd">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <button class="swiper-ms-arrow ms-next" type="button" aria-label="Növbəti slayd">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide item-ms">
+                  <a href="/garantia-germaniya">
+                    <img data-swiper-parallax-y="300" data-swiper-parallax-duration="600" data-swiper-parallax-opacity="0.4" data-swiper-parallax-scale="0.4" width="1082" height="445" class="bg-image-slider img-responsive" src="https://g-shop.com.ua/image/cache/catalog/2025/baner/Header_Garten_01-1082x445.jpg" alt="" />
+                    <div class="ms-caption">
+                      <div class="slide-type2 container dflex">
+                        <div class="row-slider-info">
+                          <div data-swiper-parallax="-300" data-swiper-parallax-duration="600" class="msp-title effect_title0">
+                            <div class="text-title" style="color: #ffffff">Высокие грядки, Дорожки, Компостеры</div>
+                          </div>
+                          <div data-swiper-parallax="300" data-swiper-parallax-duration="600" class="sub-title effect_sub_title0">
+                            <div class="text-sub-title" style="color: #ffffff">Более 50 лет опыта создают каждый из этих высококачественных садовых продуктов.</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide item-ms">
+                  <a href="/service">
+                    <img data-swiper-parallax-y="300" data-swiper-parallax-duration="600" data-swiper-parallax-opacity="0.4" data-swiper-parallax-scale="0.4" width="1082" height="445" class="bg-image-slider img-responsive" src="https://g-shop.com.ua/image/cache/catalog/2024/baner/gardena_service-2024-1082x445.jpg" alt="" />
+                    <div class="ms-caption">
+                      <div class="slide-type1 container dflex">
+                        <div class="row-slider-info">
+                          <div data-swiper-parallax="-300" data-swiper-parallax-duration="600" class="msp-title effect_title0">
+                            <div class="text-title" style="color: #ffffff">КАТАЛОГ ЗАПАСНЫХ ЧАСТЕЙ GARDENA</div>
+                          </div>
+                          <div data-swiper-parallax="300" data-swiper-parallax-duration="600" class="sub-title effect_sub_title0">
+                            <div class="text-sub-title" style="color: #fffffc">Вы можете самостоятельно подобрать запасную часть к вашему инструменту !</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-ms-pagination swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section>
+        <div class="container">
+          <h2 class="mt-12 text-4xl mb-12 font-medium">Məhsullar</h2>
+          <div class="products_wrapper relative">
+            <div class="swiper products_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-swiper-button-next absolute top-1/2 right-0 translate-y-[-50%] bg-[#13181E] w-[48px] h-[48px] rounded-full z-10 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 128 128" style="enable-background: new 0 0 512 512" xml:space="preserve" class="w-full h-full object-contain p-2">
+                  <g><path d="M44 108a4 4 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A4 4 0 0 1 44 108" fill="#ffffff" opacity="1" data-original="#000000"></path></g>
+                </svg>
+              </div>
+              <div class="product-swiper-button-prev absolute top-1/2 left-0 rotate-[180deg] translate-y-[-50%] bg-[#13181E] w-[48px] h-[48px] rounded-full z-10 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 128 128" style="enable-background: new 0 0 512 512" xml:space="preserve" class="w-full h-full object-contain p-2">
+                  <g><path d="M44 108a4 4 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A4 4 0 0 1 44 108" fill="#ffffff" opacity="1" data-original="#000000"></path></g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- categories one -->
+      <section>
+        <div class="container">
+          <h2 class="mt-24 mb-12 text-4xl font-medium">Alt kateqoriyalar</h2>
+          <div class="flex flex-wrap justify-between gap-y-4 sub_cat_wrapper">
+            <a href="#" style="--color: #e7ddd3" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #d4e8ff" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #f0f3f8" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #cff1d9" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e6e9f0" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e3f7eb" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- üstünlüklər -->
+      <section>
+        <div class="container">
+          <div id="advantages_wrapper" class="mt-12">
+            <a href="#" class="advantage_card advantage_card--hero">
+              <div class="advantage_card_content">
+                <h2>Alış-veriş daha rahatdır</h2>
+                <p>Minlərlə məhsul, sərfəli qiymətlər və sürətli çatdırılma bir ünvanda.</p>
+              </div>
+              <span class="advantage_card_icon advantage_card_icon--large" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                  <path d="M17 22h30l-3 31H20l-3-31Z" stroke="currentColor" stroke-width="3" />
+                  <path d="M24 25v-5a8 8 0 0 1 16 0v5" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                  <path d="M25 34h14" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                </svg>
+              </span>
+            </a>
+
+            <a href="#" class="advantage_card">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M6 14h24v21H6V14Z" stroke="currentColor" stroke-width="2.5" />
+                  <path d="M30 21h6l6 7v7H30V21Z" stroke="currentColor" stroke-width="2.5" />
+                  <circle cx="14" cy="36" r="4" fill="#fff" stroke="currentColor" stroke-width="2.5" />
+                  <circle cx="35" cy="36" r="4" fill="#fff" stroke="currentColor" stroke-width="2.5" />
+                </svg>
+              </span>
+              <h3>Sürətli çatdırılma</h3>
+              <p>Sifarişinizi qısa müddətdə təhlükəsiz şəkildə çatdırırıq.</p>
+            </a>
+
+            <a href="#" class="advantage_card">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M24 5 39 11v11c0 10-6.3 17-15 21-8.7-4-15-11-15-21V11l15-6Z" stroke="currentColor" stroke-width="2.5" />
+                  <path d="m17 24 5 5 10-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <h3>Rəsmi zəmanət</h3>
+              <p>Məhsullar istehsalçı və mağaza zəmanəti ilə təqdim olunur.</p>
+            </a>
+
+            <a href="#" class="advantage_card">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <rect x="5" y="10" width="38" height="28" rx="4" stroke="currentColor" stroke-width="2.5" />
+                  <path d="M5 19h38M12 31h9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+              </span>
+              <h3>Təhlükəsiz ödəniş</h3>
+              <p>Məlumatlarınız qorunur, ödənişləriniz etibarlı şəkildə aparılır.</p>
+            </a>
+
+            <a href="#" class="advantage_card">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M8 25a16 16 0 0 1 32 0" stroke="currentColor" stroke-width="2.5" />
+                  <path d="M8 25v10h6V24H9M40 25v10h-6V24h5M34 38c-2 3-6 5-11 5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+              </span>
+              <h3>7/24 dəstək</h3>
+              <p>Suallarınızı cavablandırmaq üçün daim yanınızdayıq.</p>
+            </a>
+
+            <a href="#" class="advantage_card">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <circle cx="19" cy="19" r="11" stroke="currentColor" stroke-width="2.5" />
+                  <path d="m27 27 13 13M14 19h10M19 14v10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+              </span>
+              <h3>Geniş məhsul seçimi</h3>
+              <p>Ehtiyacınıza uyğun məhsulu yüzlərlə kateqoriya arasından tapın.</p>
+            </a>
+
+            <a href="#" class="advantage_card advantage_card--wide">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M7 12h34v24H7V12Z" stroke="currentColor" stroke-width="2.5" />
+                  <path d="m11 32 9-9 7 6 6-8 8 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="17" cy="19" r="3" fill="currentColor" />
+                </svg>
+              </span>
+              <h3>Sərfəli qiymətlər və kampaniyalar</h3>
+              <p>Seçilmiş məhsullarda xüsusi endirimlərdən və təkliflərdən yararlanın.</p>
+            </a>
+
+            <a href="#" class="advantage_card advantage_card--wide">
+              <span class="advantage_card_icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="M10 13h24v25H10V13Z" stroke="currentColor" stroke-width="2.5" />
+                  <path d="M16 13V9h24v25h-6M17 25l5 5 10-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <h3>Asan dəyişdirmə və geri qaytarma</h3>
+              <p>Uyğun olmayan məhsulları qaydalara əsasən rahatlıqla dəyişdirə bilərsiniz.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- categories two -->
+      <section>
+        <div class="container">
+          <h2 class="mt-24 mb-12 text-4xl font-medium">Alt kateqoriyalar</h2>
+          <div class="flex flex-wrap justify-between gap-y-4 sub_cat_wrapper">
+            <a href="#" style="--color: #e7ddd3" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #d4e8ff" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #f0f3f8" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #cff1d9" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e6e9f0" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e3f7eb" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- brendlər -->
+      <section>
+        <div class="container">
+          <h2 class="mt-24 mb-12 text-4xl font-medium">Brendlər</h2>
+          <div class="brands_wrapper">
+            <div class="swiper brand_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="w-full object-contain" src="https://cdn.vseinstrumenti.ru/imgtmb/420x180/img/makes/13705.jpg?hash=58ac8284b05726d35b3e57b5a10f69ca" alt="" />
+                </div>
+              </div>
+              <div class="brand-swiper-button-next"></div>
+              <div class="brand-swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- categories three -->
+      <section>
+        <div class="container">
+          <h2 class="mt-24 mb-12 text-4xl font-medium">Alt kateqoriyalar</h2>
+          <div class="flex flex-wrap justify-between gap-y-4 sub_cat_wrapper">
+            <a href="#" style="--color: #e7ddd3" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #d4e8ff" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #f0f3f8" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #cff1d9" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e6e9f0" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+            <a href="#" style="--color: #e3f7eb" class="w-[16%] overflow-hidden relative h-[208px] p-[16px] rounded-[20px] bg-[var(--color)]">
+              <p class="font-[900] text-[16px] mb-4 leading-[17px] text-[#13181E] line-clamp-2">Məhsul kateqoriyası</p>
+              <img class="w-full object-contain" src="/assets/photos/cat_ft.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section>
+        <div class="container">
+          <h2 class="mt-12 text-4xl mb-12 font-medium">Məhsullar</h2>
+          <div class="products_wrapper relative">
+            <div class="swiper products_slider_two">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide product_card_slide p-4 rounded-[12px]">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[green]">Yeni</span>
+                    <span class="inline-block text-[12px] px-[9px] leading-[20px] h-[20px] rounded-[12px] text-white font-medium bg-[red]">Top 10</span>
+                  </div>
+                  <a href="">
+                    <img class="w-[80%] mx-auto object-contain" src="https://cdn1.technopark.ru/technopark/photos_resized/product/248_248/833459/1_833459.jpg?timestamp=2026-06-11_11-06-46" alt="" />
+                  </a>
+                  <a href="" class="mt-6 block">
+                    <p class="text-center text-[12px] font-medium leading-[15px] text-[#8b96a3]">Category Name</p>
+                    <p class="text-[14px] font-medium line-clamp-2 leading-[17px] text-center mt-3">Product Name</p>
+                    <p class="flex items-center gap-2 text-[12px] justify-center mt-10 text-[#8b96a3]">
+                      <span class="inline-block w-[6px] h-[6px] rounded-full bg-[#14a33d]"></span>
+                      Stokda
+                    </p>
+                  </a>
+                  <div class="flex items-center justify-between mt-3">
+                    <a href="" class="text-[17px] font-extrabold text-[#13181e] leading-[21px]">75 AZN</a>
+                    <div class="flex items-center gap-2">
+                      <button class="inline-flex items-center bg-transparent border-0 text-[#8b96a3] cursor-pointer p-0 normal-case transition-colors duration-200">
+                        <svg data-v-448792b4="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-favorites-button__icon tp-icon"><path d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                      </button>
+                      <button class="text-[#ea4e01] cursor-pointer">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="add-to-cart-button__icon">
+                          <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="20"></circle>
+                          <path d="M20.9863 24.25C20.9863 24.6642 20.6505 25 20.2363 25C19.8221 25 19.4863 24.6642 19.4863 24.25C19.4863 23.8358 19.8221 23.5 20.2363 23.5C20.6505 23.5 20.9863 23.8358 20.9863 24.25Z" fill="white"></path>
+                          <path d="M28.5137 24.25C28.5137 24.6642 28.1779 25 27.7637 25C27.3495 25 27.0137 24.6642 27.0137 24.25C27.0137 23.8358 27.3495 23.5 27.7637 23.5C28.1779 23.5 28.5137 23.8358 28.5137 24.25Z" fill="white"></path>
+                          <path d="M28.4901 19.5C29.7465 19.5 30.8089 20.462 30.9749 21.7501L31.9776 29.5645C32.178 31.1188 31.0089 32.5 29.4928 32.5H18.5072C16.9911 32.5 15.822 31.1188 16.0224 29.5645L17.0251 21.7501C17.1911 20.462 18.2535 19.5 19.5099 19.5H28.4901Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M27.5 19V18.3939C27.5 16.5195 25.933 15 24 15C22.067 15 20.5 16.5195 20.5 18.3939V19" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-swiper-button-next absolute top-1/2 right-0 translate-y-[-50%] bg-[#13181E] w-[48px] h-[48px] rounded-full z-10 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 128 128" style="enable-background: new 0 0 512 512" xml:space="preserve" class="w-full h-full object-contain p-2">
+                  <g><path d="M44 108a4 4 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A4 4 0 0 1 44 108" fill="#ffffff" opacity="1" data-original="#000000"></path></g>
+                </svg>
+              </div>
+              <div class="product-swiper-button-prev absolute top-1/2 left-0 rotate-[180deg] translate-y-[-50%] bg-[#13181E] w-[48px] h-[48px] rounded-full z-10 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 128 128" style="enable-background: new 0 0 512 512" xml:space="preserve" class="w-full h-full object-contain p-2">
+                  <g><path d="M44 108a4 4 0 0 1-2.828-1.172 3.997 3.997 0 0 1 0-5.656L78.344 64 41.172 26.828c-1.563-1.563-1.563-4.094 0-5.656s4.094-1.563 5.656 0l40 40a3.997 3.997 0 0 1 0 5.656l-40 40A4 4 0 0 1 44 108" fill="#ffffff" opacity="1" data-original="#000000"></path></g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews -->
+      <section>
+        <div class="container">
+          <h2 class="text-4xl mt-24 font-medium">Müştəri Rəyləri</h2>
+          <div id="reviews_wrapper" class="mt-12">
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--orange" aria-hidden="true">E</span>
+                <div>
+                  <h3>Elvin Məmmədov</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-07-18">10 gün əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Sifarişim vaxtında və problemsiz çatdırıldı. Məhsul tam şəkildə göstərildiyi kimidir. Xidmətdən razı qaldım.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--green" aria-hidden="true">A</span>
+                <div>
+                  <h3>Aysel Əliyeva</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-07-14">2 həftə əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Məhsul keyfiyyətlidir, qablaşdırılması da çox yaxşı idi. Qiymət və xidmət baxımından uğurlu alış oldu.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--blue" aria-hidden="true">N</span>
+                <div>
+                  <h3>Nicat Hüseynli</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-07-09">19 gün əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 4">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Saytdan sifariş vermək rahatdır. Çatdırılma gözlədiyimdən daha tez oldu, məhsuldan da razıyam.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--purple" aria-hidden="true">L</span>
+                <div>
+                  <h3>Lalə Qasımova</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-07-03">25 gün əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Məsləhətçi bütün suallarımı ətraflı cavablandırdı. Düzgün məhsulu seçməyimə kömək etdiyiniz üçün təşəkkür edirəm.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--red" aria-hidden="true">R</span>
+                <div>
+                  <h3>Rauf İsmayılov</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-06-24">1 ay əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">İkinci dəfədir buradan alış edirəm. Hər iki sifarişdə xidmət sürətli, məhsullar isə keyfiyyətli olub.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--teal" aria-hidden="true">G</span>
+                <div>
+                  <h3>Günay Rzayeva</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-06-18">1 ay əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Endirim zamanı çox sərfəli qiymətə aldım. Məhsul səliqəli qablaşdırılmışdı və heç bir zədə yox idi.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--navy" aria-hidden="true">T</span>
+                <div>
+                  <h3>Tural Abdullayev</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-06-11">1 ay əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 4">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Ümumilikdə hər şey yaxşıdır. Seçim çoxdur və məhsullar barədə məlumatlar aydın təqdim olunub.</p>
+            </article>
+
+            <article class="review_card">
+              <header class="review_card_header">
+                <span class="review_avatar review_avatar--pink" aria-hidden="true">S</span>
+                <div>
+                  <h3>Sevinc Kərimova</h3>
+                  <p class="review_meta">Gshop müştərisi</p>
+                  <time datetime="2026-05-28">2 ay əvvəl</time>
+                </div>
+              </header>
+              <div class="review_rating" role="img" aria-label="5 ulduzdan 5">
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+                <span class="w-[10px] h-[10px] review_card_dot rounded-full bg-[orange]"></span>
+              </div>
+              <p class="review_text">Çatdırılma əməkdaşı əvvəlcədən əlaqə saxladı. Sifarişim tam və vaxtında təhvil verildi.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- blogs -->
+      <section>
+        <div class="container">
+          <div class="flex items-center gap-12 mt-24 mb-12">
+            <h2 class="text-4xl font-medium">Faydalı məlumatlar</h2>
+            <a href="" class="flex items-center gap-2 transition-all duration-300 ease-in-out hover:border-[#ccc] border-[2px] border-[#eaeaea] py-[6px] pl-[24px] pr-[12px] rounded-[8px] text-[#272727] font-medium">
+              Hamsına bax
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0" viewBox="0 0 6.35 6.35" style="enable-background: new 0 0 512 512" xml:space="preserve" class="">
+                <g><path d="M2.258 1.315a.265.265 0 0 0-.174.469L3.703 3.17l-1.62 1.386a.265.265 0 1 0 .345.4L4.28 3.373a.265.265 0 0 0 0-.403L2.428 1.382a.27.27 0 0 0-.17-.067" fill="#000000" opacity="1" data-original="#000000" class=""></path></g>
+              </svg>
+            </a>
+          </div>
+          <div class="flex items-center gap-3 mb-12">
+            <button class="active cursor-pointer blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Hamsı</button>
+            <button class="blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Məhsullar</button>
+            <button class="blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Xəbərlər</button>
+            <button class="blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Endirimlər</button>
+            <button class="blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Kompanyalar</button>
+            <button class="blog_category_btn duration-300 ease-in-out transition-all cursor-pointer text-[14px] py-[10px] px-[16px] rounded-[8px] w-max font-medium">Sərgilər</button>
+          </div>
+          <div class="grid grid-cols-5 gap-5">
+            <article>
+              <a class="rounded-[12px] flex items-end relative w-full block article_card p-5 overflow-hidden h-[380px] rounded-[12px]" href="#">
+                <picture>
+                  <img class="w-full h-full object-cover absolute top-0 left-0" src="/assets/photos/413kh856.webp" alt="" />
+                </picture>
+                <p class="line-clamp-2 text-white relative z-10 font-medium">Lorem ipsum dolor sit amet</p>
+              </a>
+            </article>
+            <article>
+              <a class="rounded-[12px] flex items-end relative w-full block article_card p-5 overflow-hidden h-[380px] rounded-[12px]" href="#">
+                <picture>
+                  <img class="w-full h-full object-cover absolute top-0 left-0" src="/assets/photos/269kh380.webp" alt="" />
+                </picture>
+                <p class="line-clamp-2 text-white relative z-10 font-medium">Lorem ipsum dolor sit amet</p>
+              </a>
+            </article>
+            <article>
+              <a class="rounded-[12px] flex items-end relative w-full block article_card p-5 overflow-hidden h-[380px] rounded-[12px]" href="#">
+                <picture>
+                  <img class="w-full h-full object-cover absolute top-0 left-0" src="/assets/photos/413kh856.webp" alt="" />
+                </picture>
+                <p class="line-clamp-2 text-white relative z-10 font-medium">Lorem ipsum dolor sit amet</p>
+              </a>
+            </article>
+            <article>
+              <a class="rounded-[12px] flex items-end relative w-full block article_card p-5 overflow-hidden h-[380px] rounded-[12px]" href="#">
+                <picture>
+                  <img class="w-full h-full object-cover absolute top-0 left-0" src="/assets/photos/269kh380.webp" alt="" />
+                </picture>
+                <p class="line-clamp-2 text-white relative z-10 font-medium">Lorem ipsum dolor sit amet</p>
+              </a>
+            </article>
+            <article>
+              <a class="rounded-[12px] flex items-end relative w-full block article_card p-5 overflow-hidden h-[380px] rounded-[12px]" href="#">
+                <picture>
+                  <img class="w-full h-full object-cover absolute top-0 left-0" src="/assets/photos/413kh856.webp" alt="" />
+                </picture>
+                <p class="line-clamp-2 text-white relative z-10 font-medium">Lorem ipsum dolor sit amet</p>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-24 bg-[#f3f4f5] text-[#13181e]">
+      <div class="container py-6 pb-4">
+        <div class="footer_main_grid pt-8">
+          <nav aria-labelledby="footer-company-title">
+            <h2 id="footer-company-title" class="mb-1 text-[20px] font-bold">Şirkət</h2>
+            <ul class="text-[18px] leading-[30px]">
+              <li><a class="footer_link" href="#">Rekvizitlər</a></li>
+              <li><a class="footer_link" href="#">Haqqımızda</a></li>
+              <li><a class="footer_link" href="#">İnvestorlar üçün məlumat</a></li>
+              <li><a class="footer_link" href="#">Sertifikatlar</a></li>
+              <li><a class="footer_link" href="#">İstehsalçılar</a></li>
+              <li><a class="footer_link" href="#">Hüquqi məlumat</a></li>
+              <li><a class="footer_link" href="#">Tövsiyə texnologiyalarının tətbiqi qaydaları</a></li>
+            </ul>
+          </nav>
+
+          <div class="space-y-7">
+            <nav aria-labelledby="footer-promotions-title">
+              <h2 id="footer-promotions-title" class="mb-1 text-[20px] font-bold">Kampaniyalar</h2>
+              <ul class="text-[18px] leading-[30px]">
+                <li><a class="footer_link" href="#">Kampaniyalarımız</a></li>
+              </ul>
+            </nav>
+
+            <nav aria-labelledby="footer-business-title">
+              <h2 id="footer-business-title" class="mb-1 text-[20px] font-bold">Şirkətlər üçün</h2>
+              <ul class="text-[18px] leading-[30px]">
+                <li><a class="footer_link" href="#">Təchizatçılar</a></li>
+                <li><a class="footer_link" href="#">Korporativ müştərilər</a></li>
+                <li><a class="footer_link" href="#">Partnyorlar</a></li>
+                <li><a class="footer_link" href="#">Satınalmalarımız</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav aria-labelledby="footer-delivery-title">
+            <h2 id="footer-delivery-title" class="mb-1 text-[20px] font-bold">Çatdırılma və ödəniş</h2>
+            <ul class="text-[18px] leading-[30px]">
+              <li><a class="footer_link" href="#">Kuryer ilə çatdırılma</a></li>
+              <li><a class="footer_link" href="#">Nəqliyyat şirkəti ilə çatdırılma</a></li>
+              <li><a class="footer_link" href="#">Mağazadan təhvil alma</a></li>
+              <li><a class="footer_link" href="#">Ödəniş üsulları</a></li>
+              <li class="pt-3"><a class="footer_link font-bold" href="#">Partnyor proqramı</a></li>
+            </ul>
+          </nav>
+
+          <div class="space-y-7">
+            <nav aria-labelledby="footer-support-title">
+              <h2 id="footer-support-title" class="mb-1 text-[20px] font-bold">Xidmət və dəstək</h2>
+              <ul class="text-[18px] leading-[30px]">
+                <li><a class="footer_link" href="#">Servis mərkəzi</a></li>
+                <li><a class="footer_link" href="#">Əks əlaqə</a></li>
+                <li><a class="footer_link" href="#">Saytdan istifadəyə kömək</a></li>
+              </ul>
+            </nav>
+
+            <nav aria-labelledby="footer-career-title">
+              <h2 id="footer-career-title" class="mb-1 text-[20px] font-bold">Bizdə işləyin</h2>
+              <ul class="text-[18px] leading-[30px]">
+                <li><a class="footer_link font-bold" href="#">Vakansiyalar</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <aside class="footer_app_card" aria-label="Gshop mobil tətbiqi">
+            <img class="mx-auto h-[190px] w-[190px] rounded-[16px] bg-white object-contain p-2" src="https://cdn.vseinstrumenti.ru/res/img/svg/qr.svg" alt="Gshop mobil tətbiqini yükləmək üçün QR kod" />
+            <p class="mx-auto mt-6 max-w-[280px] text-[18px] font-semibold leading-6">Zəmanətli orijinal məhsullar! Tətbiqimizi skan edin və yükləyin</p>
+            <div class="mt-5 flex flex-wrap justify-center gap-3" aria-label="Tətbiq mağazaları">
+              <a class="footer_store_badge bg-[#20252b]" href="#" aria-label="App Store">
+                <span class="text-[23px]" aria-hidden="true">●</span>
+              </a>
+              <a class="footer_store_badge bg-[#20252b]" href="#" aria-label="Google Play">
+                <span class="text-[16px]" aria-hidden="true">▶</span>
+              </a>
+              <a class="footer_store_badge bg-[#c90b3f]" href="#" aria-label="Huawei AppGallery">
+                <span class="text-[10px] font-bold" aria-hidden="true">HUAWEI</span>
+              </a>
+              <a class="footer_store_badge bg-[#087cf0]" href="#" aria-label="Mobil tətbiq">
+                <span class="text-[20px] font-bold" aria-hidden="true">G</span>
+              </a>
+            </div>
+          </aside>
+          <div class="footer_social_row">
+            <div>
+              <h2 class="mb-3 text-[20px] font-bold">Sosial şəbəkələrimiz</h2>
+              <div class="flex flex-wrap gap-3">
+                <a class="footer_social bg-[#1877f2]" href="#" aria-label="Facebook"><span aria-hidden="true">f</span></a>
+                <a class="footer_social bg-gradient-to-br from-[#ffb000] via-[#e1306c] to-[#6a34b8]" href="#" aria-label="Instagram"><span aria-hidden="true">◎</span></a>
+                <a class="footer_social bg-[#ff0033]" href="#" aria-label="YouTube"><span aria-hidden="true">▶</span></a>
+                <a class="footer_social bg-[#229ed9]" href="#" aria-label="Telegram"><span aria-hidden="true">➤</span></a>
+                <a class="footer_social bg-[#111]" href="#" aria-label="TikTok"><span aria-hidden="true">♪</span></a>
+                <a class="footer_social bg-[#21b356]" href="#" aria-label="WhatsApp"><span aria-hidden="true">☎</span></a>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="mb-3 text-[20px] font-bold">Biznes müştəriləri üçün əlaqə</h2>
+              <a class="inline-flex min-h-11 items-center rounded-[10px] bg-[#20252b] px-4 py-2 text-[14px] font-semibold text-white transition-colors hover:bg-[#ea4e01] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ea4e01]" href="#"> Müraciət göndər </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_legal pb-6 text-[#4d5963]">
+          <p class="max-w-[1240px]">
+            Saytda hər hansı əks əlaqə formasında məlumatlarınızı göndərərkən
+            <a class="footer_legal_link" href="#">şəxsi məlumatların emalı siyasətini</a>
+            və
+            <a class="footer_legal_link" href="#">istifadəçi razılaşmasını</a>
+            qəbul etmiş olursunuz.
+          </p>
+          <p class="mt-2">© 2026 Gshop. Bütün hüquqlar qorunur.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.6/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js?v=6"></script>
+  </body>
+</html>
