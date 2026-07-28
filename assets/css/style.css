@@ -2,7 +2,7 @@
   outline: none;
 }
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   background-color: #fefefe;
 }
@@ -416,10 +416,24 @@ header {
 .products_slider_two {
   overflow: visible;
 }
-
-.product_card_slide {
-  box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+.products_slider .product_card_buttons_wrapper,
+.products_slider_two .product_card_buttons_wrapper {
+  opacity: 0;
+  transition: opacity 0.2s linear;
 }
+.products_slider .swiper-slide:hover .product_card_buttons_wrapper,
+.products_slider_two .swiper-slide:hover .product_card_buttons_wrapper {
+  opacity: 1;
+}
+.product_card_buttons_wrapper svg:hover path {
+  fill: red;
+}
+.add_basket:hover path {
+  fill: #fff !important;
+}
+/* .product_card_slide {
+  box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+} */
 
 @media (max-width: 720px) {
   .products_wrapper {

@@ -161,9 +161,9 @@ const brandSwiper = initializeSwiper(".brand_swiper", {
 });
 
 const productSwiper = initializeSwiper(".products_slider", {
-  slidesPerView: 4,
+  slidesPerView: 5,
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".product-swiper-button-next",
     prevEl: ".product-swiper-button-prev",
@@ -174,7 +174,7 @@ const productSwiper = initializeSwiper(".products_slider", {
 });
 
 const productSwiperTwo = initializeSwiper(".products_slider_two", {
-  slidesPerView: 4,
+  slidesPerView: 5,
   loop: true,
   spaceBetween: 30,
   navigation: {
