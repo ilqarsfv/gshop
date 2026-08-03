@@ -8,6 +8,7 @@ if (catalogButton && catalogPanel) {
 
   const openCatalog = () => {
     window.clearTimeout(closeTimer);
+    catalogPanel.removeAttribute("inert");
     catalogPanel.classList.add("is-open");
     catalogPanel.setAttribute("aria-hidden", "false");
     catalogButton.setAttribute("aria-expanded", "true");
@@ -17,6 +18,7 @@ if (catalogButton && catalogPanel) {
     window.clearTimeout(closeTimer);
     catalogPanel.classList.remove("is-open");
     catalogPanel.setAttribute("aria-hidden", "true");
+    catalogPanel.setAttribute("inert", "");
     catalogButton.setAttribute("aria-expanded", "false");
     if (restoreFocus) catalogButton.focus();
   };
