@@ -223,3 +223,14 @@ document.querySelectorAll(".review_text").forEach((reviewText, index) => {
     reviewResizeObserver.observe(reviewText);
   }
 });
+
+
+const header = document.querySelector(".header_fixed")
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 20) {
+    header.classList.add("is-scrolled")
+  } else {
+    header.classList.remove("is-scrolled")
+  }
+})

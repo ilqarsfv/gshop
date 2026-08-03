@@ -174,8 +174,12 @@ body {
 
 header {
   position: relative;
-  z-index: 20;
+  z-index: 99999;
 }
+.header_fixed.is-scrolled{
+  top: 0px !important;
+}
+
 .container {
   max-width: 1392px;
   margin: 0 auto;
@@ -681,7 +685,7 @@ header {
 }
 
 .brand_swiper .swiper-slide {
-  /* height: 112px; */
+  height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
