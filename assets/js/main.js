@@ -163,7 +163,7 @@ const brandSwiper = initializeSwiper(".brand_swiper", {
 });
 
 const productSwiper = initializeSwiper(".products_slider", {
-  slidesPerView: 6,
+  slidesPerView: 5,
   loop: true,
   spaceBetween: 10,
   navigation: {
