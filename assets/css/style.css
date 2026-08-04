@@ -487,15 +487,7 @@ header {
 .products_slider_two {
   overflow: visible;
 }
-.products_slider .product_card_buttons_wrapper,
-.products_slider_two .product_card_buttons_wrapper {
-  opacity: 0;
-  transition: opacity 0.2s linear;
-}
-.products_slider .swiper-slide:hover .product_card_buttons_wrapper,
-.products_slider_two .swiper-slide:hover .product_card_buttons_wrapper {
-  opacity: 1;
-}
+
 .product_card_buttons_wrapper svg:hover path {
   fill: red;
 }
