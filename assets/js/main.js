@@ -165,7 +165,7 @@ const brandSwiper = initializeSwiper(".brand_swiper", {
 const productSwiper = initializeSwiper(".products_slider", {
   slidesPerView: 5,
   loop: true,
-  spaceBetween: 15,
+  spaceBetween: 30,
   navigation: {
     nextEl: ".product-swiper-button-next",
     prevEl: ".product-swiper-button-prev",
