@@ -259,7 +259,7 @@ const partnorSwiper = new Swiper(".brand_swiper", {
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 8,
+      slidesPerView: 7,
       spaceBetween: 50,
     },
   }});
