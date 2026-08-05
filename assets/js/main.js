@@ -136,31 +136,31 @@ const megaSlider = initializeSwiper("#mslider0", {
   watchOverflow: true,
 });
 
-const brandSwiper = initializeSwiper(".brand_swiper", {
-  slidesPerView: 1,
-  spaceBetween: 12,
-  rewind: true,
-  watchOverflow: true,
-  grabCursor: true,
-  navigation: {
-    nextEl: ".brand-swiper-button-next",
-    prevEl: ".brand-swiper-button-prev",
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 20,
-    },
-    1024: {
-      slidesPerView: 7,
-      spaceBetween: 10,
-    },
-  },
-});
+// const brandSwiper = initializeSwiper(".brand_swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 12,
+//   rewind: true,
+//   watchOverflow: true,
+//   grabCursor: true,
+//   navigation: {
+//     nextEl: ".brand-swiper-button-next",
+//     prevEl: ".brand-swiper-button-prev",
+//   },
+//   breakpoints: {
+//     640: {
+//       slidesPerView: 2,
+//       spaceBetween: 20,
+//     },
+//     768: {
+//       slidesPerView: 4,
+//       spaceBetween: 20,
+//     },
+//     1024: {
+//       slidesPerView: 7,
+//       spaceBetween: 10,
+//     },
+//   },
+// });
 
 const productSwiper = initializeSwiper(".products_slider", {
   slidesPerView: 5,
@@ -234,3 +234,32 @@ window.addEventListener("scroll", () => {
     header.classList.remove("is-scrolled")
   }
 })
+
+
+const partnorSwiper = new Swiper(".brand_swiper", {
+    spaceBetween: 15,
+    slidesPerView: 2,
+    loop: true,
+    effect: "slide",
+    pauseOnMouseEnter: false,
+    direction: "horizontal",
+    speed: 8000,
+    freeMode: true,
+    autoplay: {
+      enable: false,
+      delay: 0,
+    },
+    breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 7,
+      spaceBetween: 50,
+    },
+  }});
